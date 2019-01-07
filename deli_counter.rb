@@ -23,6 +23,8 @@ def now_serving(arr)
   if arr.size == 0
     str = "There is nobody waiting to be served!"
   else
-    
-
-3. Build the `now_serving` method which should call out (i.e. `puts`) the next person in line and then remove them from the front. If there is nobody in line, it should call out (`puts`) that `"There is nobody waiting to be served!"`.
+    str = "Currently serving #{arr.first}."
+    arr.shift
+  end
+  puts str
+end
