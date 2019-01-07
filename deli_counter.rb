@@ -12,7 +12,6 @@ def line(arr)
     end
   end
   puts str
-  str
   
 end
 
