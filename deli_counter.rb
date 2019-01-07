@@ -2,6 +2,7 @@ katz_deli = []
 
 # line
 def line(arr)
+  str
   if arr.size == 0 
     str = "The line is currently empty."
   else
