@@ -11,6 +11,8 @@ def line(arr)
       str += " #{index + 1}. #{value}"
     end
   end
+  puts str
+  str
   
 end
 
