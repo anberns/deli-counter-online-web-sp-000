@@ -9,6 +9,7 @@ def line(arr)
     arr.each_with_index do |value, index|
       str += " #{index + 1}. #{value}"
     end
+  end
   str
 end
 
