@@ -2,7 +2,7 @@ katz_deli = []
 
 # line
 def line(arr)
-  str
+  
   if arr.size == 0 
     str = "The line is currently empty."
   else
@@ -11,7 +11,7 @@ def line(arr)
       str += " #{index + 1}. #{value}"
     end
   end
-  str
+  
 end
 
 #take_a_number
